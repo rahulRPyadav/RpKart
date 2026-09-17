@@ -6,6 +6,7 @@ import { ArrowUpRight, Sparkles } from 'lucide-react';
 import t1 from '../assets/t2.png';
 import t2p1 from '../assets/t2p1.png';
 import t3p1 from "../assets/t3p1.png";
+import lp1p1 from "../assets/lp1p1.png";
 
 export default function FeaturedProjects() {
   const navigate = useNavigate();
@@ -49,16 +50,15 @@ export default function FeaturedProjects() {
     },
     { 
       id: 4, 
-      title: "UPSC Exam Study & Prep Tracker", 
-      category: "PRODUCTIVITY APP", 
-      version: "v1.2.0", 
+      title: "Birthday Website Landing Page 1", 
+      category: "LANDING PAGE", 
+      version: "v1.0.0", 
       description: "A single-page UPSC preparation tracker...", 
       techStack: ["React", "Tailwind CSS", "Chart.js"], 
-      price: "₹199", 
+      price: "₹99", 
       delivery: "Direct Access Link", 
       imageBg: "bg-gradient-to-br from-stone-950 via-zinc-900 to-neutral-900", 
-      previewText: "UPSC TRACKER",
-      image: "" 
+      image: lp1p1
     },
     { 
       id: 5, 

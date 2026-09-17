@@ -19,6 +19,10 @@ import t2p2 from "../assets/t2p2.png";
 import t3p1 from "../assets/t3p1.png";
 import t3p2 from "../assets/t3p2.png";
 
+import lp1p1 from "../assets/lp1p1.png";
+import lp1p2 from "../assets/lp1p2.png";
+import lp1p3 from "../assets/lp1p3.png";
+
 export default function ProductDetail() {
   const { id } = useParams();
   const navigate = useNavigate();
@@ -101,34 +105,35 @@ export default function ProductDetail() {
         "Fully responsive design",
         "Easy-to-customize content",
       ],
-      screenshots: [
-        t3p1,t3p2
-        ],
+      screenshots: [t3p1, t3p2],
     },
     4: {
-      title: "UPSC Exam Study & Prep Tracker",
-      category: "PRODUCTIVITY APP",
+      title: "Birthday Website Landing Page 1",
+      category: "LANDING PAGE",
       postedDate: "Posted 1 month ago",
-      version: "Version 1.2.0",
-      price: "₹199",
+      version: "Version 1.0.0",
+      price: "₹99",
       delivery: "Direct Access Link + Optional ZIP",
       description:
-        "A single-page UPSC preparation tracker web application featuring built-in study timers, revision logging, weekly progress charts, and local data persistence.",
+        "A romantic and interactive birthday experience featuring a beautiful heart-shaped tree, personalized birthday wishes, animated hearts, surprise moments, and a unique pull-and-release interaction designed to create a memorable celebration.",
       overview:
-        "Designed specifically for civil services aspirants to log daily study hours, track syllabus completion, and analyze weekly progress through interactive charts.",
-      liveUrl: "https://rahulrp.vercel.app/",
+        "Create a magical digital birthday experience with this romantic and interactive birthday website template. The experience combines beautiful visual scenes, personalized birthday content, floating hearts, glowing effects, and a stunning heart-shaped tree filled with love.\n\nThe website also includes an interactive wish experience where the user can make a wish and use the pull-and-release interaction to trigger a special surprise. With its soft romantic visuals and engaging animations, this template is perfect for birthdays, couples, anniversaries, and special celebrations.\n\nAfter purchase, you will receive a direct live deployment link instantly via WhatsApp, along with optional source code files if you want to host and customize the template yourself.",
+      liveUrl: "https://birthday-website-landing-page.vercel.app/",
       features: [
-        "Study timer & stopwatch",
-        "Weekly progress charts",
-        "Revision logging",
-        "Auto data saving",
-        "Clean dashboard",
+        "Interactive birthday experience",
+        "Beautiful heart-shaped tree",
+        "Personalized birthday name",
+        "Custom birthday message",
+        "Make-a-wish interaction",
+        "Pull & release interaction",
+        "Animated hearts and floating elements",
+        "Romantic glowing effects",
+        "Beautiful animated scenes",
+        "Soft romantic birthday theme",
+        "Fully responsive design",
+        "Easy-to-customize content",
       ],
-      screenshots: [
-        "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=800&q=80",
-        "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80",
-      ],
-      previewText: "UPSC TRACKER",
+      screenshots: [lp1p1, lp1p2, lp1p3],
     },
     5: {
       title: "RL Interior Design Portfolio & UI",
