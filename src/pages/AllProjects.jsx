@@ -66,30 +66,18 @@ export default function AllProjects() {
     },
     {
       id: "5",
-      title: "RL Interior Design Portfolio & UI",
-      category: "BUSINESS TEMPLATE",
-      version: "v1.0.0",
-      description: "Stunning modern portfolio and landing page for interior design brands featuring logo showcase and smooth animations.",
-      techStack: ["React", "Tailwind CSS", "JavaScript"],
-      price: "₹149",
+      title: "coming soon",
+      category: "LANDING PAGE",
+      version: "v0.0.0",
+      description: "..................",
+      techStack: ["......", "......", "....."],
+      price: "₹.....",
       delivery: "Direct Access Link",
       imageBg: "bg-gradient-to-br from-orange-950 via-amber-950 to-stone-950",
-      previewText: "RL INTERIORS",
+      previewText: "coming soon",
       image: ""
     },
-    {
-      id: "6",
-      title: "E-Commerce Multi-Vendor Dashboard",
-      category: "FULL STACK SaaS",
-      version: "v1.5.0",
-      description: "Advanced admin & vendor dashboard with product management, live sales analytics graphs, and role-based access.",
-      techStack: ["React", "Node.js", "MongoDB", "Tailwind"],
-      price: "₹349",
-      delivery: "Full Source Code",
-      imageBg: "bg-gradient-to-br from-slate-950 via-cyan-950 to-blue-950",
-      previewText: "VENDOR DASH",
-      image: ""
-    }
+  
   ];
 
   const categories = ["ALL", "LANDING PAGE", "FRONTEND", "FULL STACK SaaS", "PRODUCTIVITY APP", "BUSINESS TEMPLATE"];

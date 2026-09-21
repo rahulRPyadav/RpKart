@@ -62,15 +62,15 @@ export default function FeaturedProjects() {
     },
     { 
       id: 5, 
-      title: "RL Interior Design Portfolio & UI", 
-      category: "BUSINESS TEMPLATE", 
-      version: "v1.0.0", 
-      description: "Stunning modern portfolio and landing page...", 
-      techStack: ["React", "Tailwind CSS", "JavaScript"], 
-      price: "₹149", 
-      delivery: "Direct Access Link", 
+      title: "coming soon", 
+      category: "LANDING PAGE", 
+      version: "v0.0.0", 
+      description: ".............................", 
+      techStack: [".........", ".......", "......."], 
+      price: "₹......", 
+      delivery: "....................", 
       imageBg: "bg-gradient-to-br from-orange-950 via-amber-950 to-stone-950", 
-      previewText: "RL INTERIORS",
+      previewText: "coming soon",
       image: "" 
     }
   ];

@@ -136,29 +136,23 @@ export default function ProductDetail() {
       screenshots: [lp1p1, lp1p2, lp1p3],
     },
     5: {
-      title: "RL Interior Design Portfolio & UI",
-      category: "BUSINESS TEMPLATE",
-      postedDate: "Posted 2 months ago",
-      version: "Version 1.0.0",
-      price: "₹149",
-      delivery: "Direct Access Link + Optional ZIP",
+      title: "Coming Soon",
+      category: "LANDING PAGE",
+      postedDate: "Soon",
+      version: "Version 0.0.0",
+      price: "₹...",
+      delivery: "Direct Access Link ",
       description:
-        "Stunning modern portfolio and landing page for interior design brands featuring logo showcase, user testimonials UI components, and smooth scroll animations.",
+        ".................",
       overview:
-        "A sleek interior design agency portfolio template with modern typography, image lightboxes, and inquiry contact forms.",
-      liveUrl: "https://rahulrp.vercel.app/",
+        ".....................",
+      liveUrl: "..",
       features: [
-        "Logo showcase slider",
-        "Client testimonials UI",
-        "Smooth scroll animations",
-        "WhatsApp direct inquiry",
-        "Mobile optimized",
+      ,,
       ],
       screenshots: [
-        "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=800&q=80",
-        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
-      ],
-      previewText: "RL INTERIORS",
+       ,,, ],
+      previewText: "coming soon",
     },
   };
 

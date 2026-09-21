@@ -6,6 +6,8 @@ import FeaturedProjects from './components/FeaturedProjects';
 import AllProjects from './pages/AllProjects';
 import Footer from './components/Footer';
 import ProductDetail from './pages/ProductDetail';
+import Testimonials from './components/Testimonials';
+import RecentPurchasePopup from './components/RecentPurchasePopup';
 
 function HomePage() {
   return (
@@ -13,6 +15,7 @@ function HomePage() {
       <Navbar />
       <Hero />
       <FeaturedProjects />
+      <RecentPurchasePopup />
       <Footer/>
     </div>
   );
