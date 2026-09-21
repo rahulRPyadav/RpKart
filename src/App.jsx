@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import FeaturedProjects from './components/FeaturedProjects';
 import AllProjects from './pages/AllProjects';
+import Footer from './components/Footer';
 import ProductDetail from './pages/ProductDetail';
 
 function HomePage() {
@@ -12,6 +13,7 @@ function HomePage() {
       <Navbar />
       <Hero />
       <FeaturedProjects />
+      <Footer/>
     </div>
   );
 }
@@ -22,6 +24,7 @@ export default function App() {
       <Route path="/" element={<HomePage />} />
       <Route path="/all-projects" element={<AllProjects />} />
       <Route path="/product/:id" element={<ProductDetail />} />
+
     </Routes>
   );
 }

@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
-import { MessageCircle, Menu, X, Code, Search, Flame } from 'lucide-react';
+import { MessageCircle, Menu, X, Search, Flame } from 'lucide-react';
+import logo from "../assets/logo.png";
 
 export default function Navbar() {
   const navigate = useNavigate();
@@ -53,7 +54,7 @@ export default function Navbar() {
       </div>
 
       <div className="px-4 pt-3">
-        {/* Added overflow-hidden to keep everything neatly inside the rounded pill shape */}
+        {/* Added overflow-hidden to keep everything neatly inside the rounded shape */}
         <header className="max-w-6xl mx-auto bg-white/90 backdrop-blur-xl border border-white/50 shadow-xl shadow-black/5 rounded-3xl sm:rounded-full px-6 py-3 transition-all duration-300 overflow-hidden">
           <div className="flex items-center justify-between gap-4">
             
@@ -65,8 +66,8 @@ export default function Navbar() {
               }}
               className="flex items-center gap-2.5 cursor-pointer group shrink-0"
             >
-              <div className="w-8 h-8 rounded-full bg-gradient-to-tr from-orange-500 to-amber-500 flex items-center justify-center text-white shadow-md shadow-orange-500/25 group-hover:scale-105 transition-transform duration-300">
-                <Code size={16} className="stroke-[2.5]" />
+              <div className="w-8 h-8 flex items-center justify-center group-hover:scale-105 transition-transform duration-300">
+                <img src={logo} alt="RpKart Logo" className="w-full h-full object-contain" />
               </div>
               <div className="flex flex-col">
                 <span className="text-base font-black tracking-tight text-gray-900 flex items-center gap-1">
