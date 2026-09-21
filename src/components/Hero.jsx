@@ -15,7 +15,7 @@ export default function Hero() {
 
   return (
     <div 
-      className="relative overflow-hidden pt-28 pb-16 px-4 bg-cover bg-center bg-no-repeat"
+      className="relative overflow-hidden pt-33 pb-16 px-4 bg-cover bg-center bg-no-repeat"
       style={{ backgroundImage: `url(${heroBg})` }}
     >
       {/* Light Overlay taaki text clear dikhe */}
